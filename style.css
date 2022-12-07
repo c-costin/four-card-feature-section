@@ -58,10 +58,14 @@ section {
     margin-block: 64px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+}
+section div {
+    display: flex;
+    flex-direction: column;
 }
 .card {
     overflow: hidden;
+    margin-bottom: 2rem;
     margin-inline: auto;
     padding-block: 24px;
     padding-inline: 32px;
@@ -127,24 +131,11 @@ section {
 @media screen and (min-width: 992px) {
     section {
         margin-inline: auto;
-        max-width: 992px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .one {
-        grid-column: 1;
-        grid-auto-rows: 1/2;
-    }
-    .two {
-        grid-column: 2;
-        grid-row: 1;
-    }
-    .three {
-        grid-column: 2;
-        grid-row: 2;
-    }
-    .four {
-        grid-column: 3;
-        grid-auto-rows: 1/2;
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
     }
 }
