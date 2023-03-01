@@ -52,12 +52,12 @@ body {
     color: var(--grayish-blue);
 }
 
-section {
+.section {
     margin-block: 64px;
     display: flex;
     flex-direction: column;
 }
-section div {
+.section div {
     display: flex;
     flex-direction: column;
 }
@@ -127,7 +127,7 @@ section div {
 
 /* ==== RESPONSIVE ==== */
 @media screen and (min-width: 992px) {
-    section {
+    .section {
         margin-inline: auto;
         width: fit-content;
         display: flex;
