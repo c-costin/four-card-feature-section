@@ -24,10 +24,10 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop version :
-![](./screenshots/desktop.png)
+![](./docs/screenshots/desktop.png)
 
 #### Mobile version :
-![](./screenshots/mobile.png)
+![](./docs/screenshots/mobile.png)
 
 ### Links
 

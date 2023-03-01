@@ -4,59 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous">
+    <link href="https://fonts.bunny.net/css?family=poppins:200,400,600" rel="stylesheet" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Frontend Mentor | Four card feature section</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <header class="header">
-        <h1 class="header__title">
-            Reliable, efficient delivery <br>
-            <span>Powered by Technology</span>
-        </h1>
-        <p class="header__desc">
-            Our Artificial Intelligence powered tools use millions of project data points
-            to ensure that your project is successful
-        </p>
-    </header>
-    <section>
-        <article class="card one">
-            <h3 class="card__title">Supervisor</h3>
-            <p class="card__text">
-                Monitors activity to identify project roadblocks
+    <main>
+        <header class="header">
+           <h1 class="header__title">
+                Reliable, efficient delivery <br>
+                <span>Powered by Technology</span>
+            </h1>
+            <p class="header__desc">
+                Our Artificial Intelligence powered tools use millions of project data points
+                to ensure that your project is successful
             </p>
-            <img src="./images/icon-supervisor.svg" alt="" class="card__icon">
-        </article>
-        <div>
-            <article class="card two">
-                <h3 class="card__title">Team Builder</h3>
+        </header>
+        <section>
+            <article class="card one">
+                <h3 class="card__title">Supervisor</h3>
                 <p class="card__text">
-                    Scans our talent network to create the optimal team for your project
+                    Monitors activity to identify project roadblocks
                 </p>
-                <img src="./images/icon-team-builder.svg" alt="" class="card__icon">
+                <img src="./assets/images/icon-supervisor.svg" alt="" class="card__icon">
             </article>
-            <article class="card three">
-                <h3 class="card__title">Karma</h3>
+            <div>
+                <article class="card two">
+                    <h3 class="card__title">Team Builder</h3>
+                    <p class="card__text">
+                        Scans our talent network to create the optimal team for your project
+                    </p>
+                    <img src="./assets/images/icon-team-builder.svg" alt="" class="card__icon">
+                </article>
+                <article class="card three">
+                    <h3 class="card__title">Karma</h3>
+                    <p class="card__text">
+                        Regularly evaluates our talent to ensure quality
+                    </p>
+                    <img src="./assets/images/icon-karma.svg" alt="" class="card__icon">
+                </article>
+            </div>
+            <article class="card four">
+                <h3 class="card__title">Calculator</h3>
                 <p class="card__text">
-                    Regularly evaluates our talent to ensure quality
+                    Uses data from past projects to provide better delivery estimates
                 </p>
-                <img src="./images/icon-karma.svg" alt="" class="card__icon">
+                <img src="./assets/images/icon-calculator.svg" alt="" class="card__icon">
             </article>
-        </div>
-        <article class="card four">
-            <h3 class="card__title">Calculator</h3>
-            <p class="card__text">
-                Uses data from past projects to provide better delivery estimates
-            </p>
-            <img src="./images/icon-calculator.svg" alt="" class="card__icon">
-        </article>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="https://costincadeau.fr">Costin Cadeau</a>.
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>.
+            Coded by <a href="https://costincadeau.fr" target="_blank" rel="noopener noreferrer">Costin Cadeau</a>.
         </p>
     </footer>
 </body>
